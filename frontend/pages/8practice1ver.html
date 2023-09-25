@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="../test/img/Favi.webp">
+  <title>opacity back</title>
+</head>
+<style>
+  body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../test/img/catbg.jpg');
+    opacity: 0.3;
+    background-size: cover;
+    z-index: -1;
+  }
+  .text-shade{
+    text-shadow: 1px 1px 2px fuchsia;
+    color: #4CAF50;
+    font-size: 30px;
+  }
+</style>
+<body>
+<header class="text-shade">
+  <h1>1 задание</h1>
+<a href="8practice1ver.html">
+  <p>1 страница</p>
+</a>
+  <a href="8practice2ver.html">
+    <p>2 страница</p>
+  </a>
+  <a href="8practice3ver.html">
+    <p>3 страница</p>
+  </a>
+</header>
+  <pre>
+  <p>
+    сделано не граф. редактором а свойством CSS "opacity" оно отвечает за прозрачность
+    (одна из трех функций для прозрачности,но как по мне самая универсальная,
+    потому что альфа канал можно менять только для цветов формата hsl и rgb</p>
+  </pre>
+</body>
+</html>
