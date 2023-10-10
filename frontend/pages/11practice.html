@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="icon" type="image/x-icon" href="../test/img/Favi.webp">
+</head>
+<style>
+    header {
+        color: #fff;
+        text-align: center;
+        padding-top: 0px;
+    }
+
+    nav ul {
+        list-style-type: none;
+    }
+
+    nav ul li {
+        display: inline;
+        margin: 10px;
+    }
+
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+    }
+    .shadow-text{
+        background: linear-gradient(to right, cyan , tomato);
+        text-shadow: 2px 1px 2px lime, 0 0 1em tomato;
+        color: blue;
+        font-size: 2em;
+        border: solid lime 2px;
+        box-sizing: content-box;
+        width: 200px;
+        margin-bottom: 15px;
+    }
+    .shadow-text:active {
+        box-shadow:
+                inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+                inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+    }
+    td{
+        align-self: center;
+        width: 400px;
+        border: solid purple 5px;
+    }
+    .column {
+        width: 25%;
+        float: left;
+        box-sizing: border-box;
+        padding: 10px;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+</style>
+<body>
+    <div>
+        <header>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="11practice.html">
+                            <input class="shadow-text"  type="button" value="main"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="11practiceStihi.html">
+                            <input class="shadow-text" style="color: red;background: linear-gradient(to right,blue , purple);" type="button" value="2 columns"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="11practicePaints.html">
+                            <input class="shadow-text" style="color: violet;background: linear-gradient(to right, lime , lemonchiffon);"type="button" value="first paints"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="11practicePaints2.html">
+                            <input class="shadow-text" style="color: violet;background: linear-gradient(to right, aquamarine , rebeccapurple);"type="button" value="second paints"/>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <h1 align="center">Русские Художники и Писатели</h1>
+    <div class="column">
+        <img src="../test/img/hudojnik.jpg" alt="Художник 1">
+        <h2>Айвазовский, Иван Константинович</h2>
+        <p>Ива́н Константи́нович Айвазо́вский
+            17 [29] июля 1817 года, Феодосия, Таврическая губерния,
+            Российская империя — 19 апреля [2 мая] 1900 года, там же)
+            — представитель русской живописи, выдающийся маринист,
+            коллекционер, меценат.</p>
+    </div>
+    <div class="column">
+        <img src="../test/img/hudojnik2.jpg" alt="Художник 2">
+        <h2>Репин, Илья Ефимович</h2>
+        <p>Илья́ Ефи́мович Ре́пин (24 июля [5 августа] 1844,
+            Чугуев, Российская империя — 29 сентября 1930)
+            — русский живописец, педагог, профессор,
+            действительный член Императорской Академии художеств.</p>
+    </div>
+    <div class="column">
+        <img src="../test/img/poet.jpg" alt="Писатель 1">
+        <h2>Пушкин, Александр Сергеевич</h2>
+        <p>Алекса́ндр Серге́евич Пу́шкин
+            (26 мая [6 июня] 1799, Москва —
+            29 января [10 февраля] 1837, Санкт-Петербург)
+            — русский поэт, драматург и прозаик, заложивший основы
+            русского реалистического направления, литературный критик
+            и теоретик литературы, историк, публицист, журналист.</p>
+    </div>
+    <div class="column">
+        <img src="../test/img/poet2.jpg" alt="Писатель 2">
+        <h2>Лермонтов, Михаил Юрьевич</h2>
+        <p>Михаи́л Ю́рьевич Ле́рмонтов
+            (3 [15] октября 1814, Москва —
+            15 [27] июля 1841, Пятигорск) —
+            русский поэт, прозаик, драматург,
+            художник. Поручик лейб-гвардии Гусарского полка.</p>
+    </div>
+</body>
+</html>

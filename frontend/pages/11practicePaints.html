@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    header {
+        color: #fff;
+        text-align: center;
+        padding-top: 0px;
+    }
+
+    nav ul {
+        list-style-type: none;
+    }
+
+    nav ul li {
+        display: inline;
+        margin: 10px;
+    }
+
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+    }
+    .shadow-text{
+        background: linear-gradient(to right, cyan , tomato);
+        text-shadow: 2px 1px 2px lime, 0 0 1em tomato;
+        color: blue;
+        font-size: 2em;
+        border: solid lime 2px;
+        box-sizing: content-box;
+        width: 200px;
+        margin-bottom: 15px;
+    }
+    .shadow-text:active {
+        box-shadow:
+                inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+                inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+    }
+    td{
+        align-self: center;
+        width: 400px;
+        border: solid purple 5px;
+    }
+    .column {
+        width: 50%;
+        float: right;
+        box-sizing: border-box;
+        padding: 10px;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+</style>
+<body>
+<div>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="11practice.html">
+                        <input class="shadow-text"  type="button" value="main"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="11practiceStihi.html">
+                        <input class="shadow-text" style="color: red;background: linear-gradient(to right,blue , purple);" type="button" value="2 columns"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="11practicePaints.html">
+                        <input class="shadow-text" style="color: violet;background: linear-gradient(to right, lime , lemonchiffon);"type="button" value="first paints"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="11practicePaints2.html">
+                        <input class="shadow-text" style="color: violet;background: linear-gradient(to right, aquamarine , rebeccapurple);"type="button" value="second paints"/>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <h1 align="center" style="font-size: 50px; color: #4CAF50">Картины</h1>
+</div>
+<div>
+    <table border="5px solid" style="border-color: purple; border-spacing: 30px" width="content-size" align="center">
+        <tr>
+            <td width="400px">
+                <img src="../test/img/paint1.jpg" align="center"/>
+            </td>
+            <td width="400px">
+                <img src="../test/img/paint2.jpeg"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="../test/img/paint3.jpg"/>
+            </td>
+            <td>
+                <img src="../test/img/paint4.jpeg">
+            </td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>

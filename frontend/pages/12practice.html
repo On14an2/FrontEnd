@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+  *{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+  }
+  ul{
+    background: #000;
+    width: 125px;
+    float: left;
+    list-style: none;
+    border-right: 8px solid black;
+  }
+  ul li{
+    height: 75px;
+  }
+  ul li img{
+    -ms-filter:progid:DXImageTransform.Microsoft.alpha(opacity=40);
+    filter:alpha(opacity=40);
+    opacity: 0.4;
+  }
+  ul li a:hover img{
+    -ms-filter:progid:DXImageTransform.Microsoft.alpha(opacity=100);
+    filter:alpha(opacity=100);
+    opacity: 1;
+  }
+  #images{
+    width: 500px;
+    height: 300px;
+    overflow:hidden;
+    float: left;
+  }
+  #wrapper{
+    width: 633px;
+    height: 300px;
+    border: 8px solid black;
+    margin: 0px auto;
+  }
+</style>
+<body>
+<div id="wrapper">
+  <ul>
+    <li><a href="#im1" id="tab1"><img width="33%" height="33%" src="../test/img/Elaina1.1.jpg"></a></li>
+    <li><a href="#im2" id="tab2"><img width="33%" height="33%" src="../test/img/Elaina2.1.jpg"></a></li>
+    <li><a href="#im3" id="tab3"><img width="33%" height="33%" src="../test/img/Elaina3.1.jpg"></a></li>
+    <li><a href="#im4" id="tab4"><img width="33%" height="33%" src="../test/img/Elaina4.1.png"></a></li>
+  </ul>
+  <div id="images">
+    <div><a name="im1"><img src="../test/img/Elaina1.1.jpg"></a></div>
+    <div><a name="im2"><img width="500px" height="300px" src="../test/img/Elaina2.1.jpg"></a></div>
+    <div><a name="im3"><img src="../test/img/Elaina3.1.jpg"></a></div>
+    <div><a name="im4"><img src="../test/img/Elaina4.1.png"></a></div>
+  </div>
+</div>
+</body>
+</html>
